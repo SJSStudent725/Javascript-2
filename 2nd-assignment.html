@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-color: #92a8d1;
+        }
+        </style>
+</head>
+<body>
+    <h1 style=color:green align="middle">Radisson Blue</h1><br>
+    <p align="middle" style=color:blue>চট্টগ্রামে খুব কমই ফাইভ স্টার হোটেল রয়েছে,থাকলেও আপনাদের পছন্দ অনুযায়ী সেবা তারা দেয় না আর দিলেও তা আপনাদের উপভোগ করার আর্থিক  সামর্থ্য থাকে না।</p><br>
+    <p align="middle" style=color:pink>একমাত্র আমাদের হোটেলে পাবেন আপনার পছন্দের সেবা যা উপভোগ করার জন্য আপনাকে বেগ পোহাতে হবে না।।</p><br>
+    <p align="middle" style=color:grey>হ্যাঁ, আমরাই দিচ্ছি আপনাকে অবিশ্বাস্য সব অফার।</p><br>
+    <p align="middle" style=color:black>প্রথম ১০ দিন থাকলে আপনাকে দিতে হবে প্রত্যেক দিনের জন্য ১০০০ টাকা, পরবর্তী ১০ দিনের জন্য ২০% ডিসকাউন্ট, এর পরে যতদিনই থাকেন না কেন আপনি পাবেন ৫০% ডিসকাউন্ট।</p><br>
+    <p align="middle" style=color:white>কী!চোখ কপালে উঠে গেল না।</p>
+    
+    <script>
+
+// program to display the total cost
+
+// take input from the user
+const number1 = parseInt(prompt('আপনি প্রথম ১০ দিনের মধ্যে কয়দিন হোটেলে অবস্থান করেছেন?: '));    
+const number2 = parseInt(prompt('প্রথম ১০ দিন অবস্থান করে থাকলে এটি বাদে পরবর্তী ১০ দিনের মধ্যে আপনি কয়দিন হোটেলে অবস্থান করেছেন?(একদিনও না থেকে থাকলে 0 দিন)): '));
+const number3 = parseInt(prompt('আপনার হোটেলে অবস্থানকাল ২০ দিন হয়ে থাকলে এর পরে আপনি আর কতদিন অবস্থান করেছেন?(আগের প্রশ্নের উত্তর শুন্য হয়ে থাকলে এবারও শুন্য দিন): '));
+const sum1=number1 + number2 + number3;
+const sum2=number1*1000 + number2*1000*0.8 + number3*1000*0.5;
+document.write('আপনার মূল্যবান উত্তর প্রদান করে আমাদেরকে সহযোগিতা করার জন্য ধন্যবাদ।<br>আপনার অবগতির জন্য জানানো যাচ্ছে যে আপনার হোটেলে অবস্থানকাল:', sum1);
+document.write('<br>');
+document.write('<br>');
+document.write('<br>');
+document.write('<br>');
+document.write('আপনি আমাদের হোটেলে অবস্থানকালে আপনার মোট খরচ হয়েছে:', sum2);    
+
+    </script><br>
+
+</body>
+</html>
